@@ -14,7 +14,7 @@ public class HandlingMultipleWindows {
         WebDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(60));
 
         driver.get("https://www.ebay.co.uk/");
 

@@ -20,11 +20,12 @@
         <artifactId>selenium-java</artifactId>
         <version>4.9.0</version>
     </dependency>
-    <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
-    <dependency> //WebDriverManager
-        <groupId>io.github.bonigarcia</groupId>
-        <artifactId>webdrivermanager</artifactId>
-        <version>5.1.0</version> // WebDriverManager version
+    <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+    <dependency>
+        <groupId>commons-io</groupId>
+        <artifactId>commons-io</artifactId>
+        <version>2.11.0</version>
     </dependency>
+
 </dependencies>
 </project>
