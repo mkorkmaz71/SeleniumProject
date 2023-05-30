@@ -13,7 +13,6 @@ public class MouseHover {
 
         driver.get("https://www.ebay.com/");
 
-
         WebElement electronicsLink = driver.findElement(By.xpath("//li/a[text()='Electronics']"));
         WebElement appleLink = driver.findElement(By.xpath("//ul/li/a[text()='Apple iPhone']"));
 
